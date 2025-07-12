@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['arka_lamba', 'kirmizi', 'okul_gecidi', 'sari', 'yaya', 'yesil']
+
+roboflow:
+  workspace: datadetection-gcv6y
+  project: trafik-nwrbt
+  version: 20
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/datadetection-gcv6y/trafik-nwrbt/dataset/20
